@@ -1,7 +1,13 @@
+import Header from "./header";
+import Filter from "./filter";
+import Footer from "./footer";
+
 function Home() {
     return (
         <div>
-            <h1>This is a Home!</h1>
+            <Header />
+            <Filter />
+            <Footer />
         </div>
     );
 }
